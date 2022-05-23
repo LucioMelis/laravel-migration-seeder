@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    @include('train');
+    @include('train')
 </body>
 
 </html>

@@ -12,4 +12,7 @@ class Train extends Model
      * @var string
      */
     protected $table = 'trains';
+    public function getData(){
+        return date('d/m/Y H:i:s', strtotime($this->orario_di_partenza));
+    }
 }
