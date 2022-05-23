@@ -4,7 +4,7 @@
         <p>{{ $train->stazione_di_partenza }}</p>
         <p>{{ $train->getData() }}</p>
     @empty
-        <p>Non ho trovato niente</p>
+        <p>Non ho trovato nessun contenuto</p>
     @endforelse
 
 </div>
